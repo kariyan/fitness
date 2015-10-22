@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<b>업무요건</b><br>
+고객의 구매금액이 0원 이하일 경우는 에러를 발생시키고 1000원 이상인 경우에는 0.01% 를 할인한다.<br>
+<b>개발팀 추가 업무정의</b>
+예외 상황일 때에는 -99 코드 값을 반환한다. 
+<table BORDER CELLSPACING='0' CELLPADDING="3">
+<tr>
+	<td colspan="3">edu.fixture.discount.DiscountFixture</td>
+</tr>
+<tr>
+	<td>desc</td>
+	<td>amount</td>
+	<td>discount()</td>
+</tr>
+<tr>
+	<td>예외사항점검</td>
+	<td>-1</td>
+	<td>error</td>
+</tr>
+<tr>
+	<td>비할인점검</td>
+	<td>900</td>
+	<td>900</td>
+</tr>
+<tr>
+	<td>할인율점검</td>
+	<td>10000</td>
+	<td>9900</td>
+</tr>
+</table>
+</body>
+</html>
